@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Clone</title>
+    <link rel="stylesheet" href="secondpg.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">in</div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search" id="searchInput" />
+        </div>
+        <div class="nav-icons">
+          <div class="nav-item active">
+            <div class="icon">🏠</div>
+            <span>Home</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">👥</div>
+            <span>Network</span>
+            <div class="badge">3</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon">💼</div>
+            <span>Jobs</span>
+          </div>
+          <div class="nav-item">
+            <div class="icon">💬</div>
+            <span>Messaging</span>
+            <div class="badge">5</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon">🔔</div>
+            <span>Notifications</span>
+            <div class="badge">2</div>
+          </div>
+          <div class="nav-item">
+            <div class="icon">👤</div>
+            <span>Me</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Left Sidebar -->
+      <aside class="left-sidebar">
+        <div class="card profile-card">
+          <div class="profile-cover"></div>
+          <div class="profile-photo">JD</div>
+          <div class="profile-info">
+            <div class="profile-name">John Doe</div>
+            <div class="profile-headline">
+              Software Engineer | Tech Enthusiast
+            </div>
+          </div>
+          <div class="profile-stats">
+            <div class="stat-item">
+              <span>Profile viewers</span>
+              <span class="stat-number">142</span>
+            </div>
+            <div class="stat-item">
+              <span>Post impressions</span>
+              <span class="stat-number">1,847</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card recent-items">
+          <div class="recent-title">Recent</div>
+          <div class="recent-item">🔹 Web Development</div>
+          <div class="recent-item">🔹 JavaScript</div>
+          <div class="recent-item">🔹 React Developers</div>
+          <div class="recent-item">🔹 UI/UX Design</div>
+        </div>
+      </aside>
+
+      <main class="feed">
+        <div class="card">
+          <div class="post-box">
+            <div class="post-avatar"></div>
+            <div class="post-input">Start a post</div>
+          </div>
+          <div class="post-actions">
+            <div class="post-action">
+              <span>📷</span>
+              <span>Photo</span>
+            </div>
+            <div class="post-action">
+              <span>🎥</span>
+              <span>Video</span>
+            </div>
+            <div class="post-action">
+              <span>📄</span>
+              <span>Event</span>
+            </div>
+            <div class="post-action">
+              <span>📝</span>
+              <span>Article</span>
+            </div>
+          </div>
+        </div>
+        <!-- post 1 -->
+        <div class="card post-card" id="post-1">
+          <div class="post-header">
+            <div class="post-header-left">
+              <div class="post-user-avatar"></div>
+              <div class="post-user-info">
+                <h3>Sarah Johnson</h3>
+                <p>Product Manager at Tech Corp • 2d</p>
+              </div>
+            </div>
+            <div class="post-menu">⋯</div>
+          </div>
+          <div class="post-content">
+            Excited to share that our team just launched a new feature that will
+            revolutionize the way users interact with our platform! 🚀 Big
+            thanks to everyone who contributed to making this happen.
+            #ProductDevelopment #Innovation
+          </div>
+          <div class="post-image1"></div>
+          <div class="post-stats">
+            <span>👍 ❤️ <span class="like-count">245</span></span>
+            <span
+              ><span class="comment-count">18</span> comments • 32 shares</span
+            >
+          </div>
+          <div class="post-interactions">
+            <div class="interaction-btn">
+              👍 <span class="like-text">Like</span>
+            </div>
+            <div class="interaction-btn">💬 Comment</div>
+            <div class="interaction-btn">🔄 Repost</div>
+            <div class="interaction-btn">📤 Send</div>
+          </div>
+        </div>
+        <!-- post 2 -->
+        <div class="card post-card" id="post-1">
+          <div class="post-header">
+            <div class="post-header-left">
+              <div class="post-user-avatar"></div>
+              <div class="post-user-info">
+                <h3>Sarah Johnson</h3>
+                <p>Product Manager at Tech Corp • 2d</p>
+              </div>
+            </div>
+            <div class="post-menu">⋯</div>
+          </div>
+          <div class="post-content">
+            Excited to share that our team just launched a new feature that will
+            revolutionize the way users interact with our platform! 🚀 Big
+            thanks to everyone who contributed to making this happen.
+            #ProductDevelopment #Innovation
+          </div>
+          <div class="post-image2"></div>
+          <div class="post-stats">
+            <span>👍 ❤️ <span class="like-count">245</span></span>
+            <span
+              ><span class="comment-count">18</span> comments • 32 shares</span
+            >
+          </div>
+          <div class="post-interactions">
+            <div class="interaction-btn">
+              👍 <span class="like-text">Like</span>
+            </div>
+            <div class="interaction-btn">💬 Comment</div>
+            <div class="interaction-btn">🔄 Repost</div>
+            <div class="interaction-btn">📤 Send</div>
+          </div>
+        </div>
+
+        <!-- post 3 -->
+        <div class="card post-card" id="post-2">
+          <div class="post-header">
+            <div class="post-header-left">
+              <div class="post-user-avatar"></div>
+              <div class="post-user-info">
+                <h3>Michael Chen</h3>
+                <p>Senior Developer at StartupX • 1w</p>
+              </div>
+            </div>
+            <div class="post-menu">⋯</div>
+          </div>
+          <div class="post-content">
+            Just wrapped up an amazing coding bootcamp where I mentored aspiring
+            developers. The energy and passion of the next generation of coders
+            is truly inspiring! Keep building, keep learning. 💻✨
+          </div>
+          <div class="post-stats">
+            <span>👍 ❤️ <span class="like-count">189</span></span>
+            <span
+              ><span class="comment-count">12</span> comments • 24 shares</span
+            >
+          </div>
+          <div class="post-interactions">
+            <div class="interaction-btn">
+              👍 <span class="like-text">Like</span>
+            </div>
+            <div class="interaction-btn">💬 Comment</div>
+            <div class="interaction-btn">🔄 Repost</div>
+            <div class="interaction-btn">📤 Send</div>
+          </div>
+        </div>
+
+        <!-- post 4 -->
+        <div class="card post-card" id="post-1">
+          <div class="post-header">
+            <div class="post-header-left">
+              <div class="post-user-avatar"></div>
+              <div class="post-user-info">
+                <h3>Sarah Johnson</h3>
+                <p>Product Manager at Tech Corp • 2d</p>
+              </div>
+            </div>
+            <div class="post-menu">⋯</div>
+          </div>
+          <div class="post-content">
+            Excited to share that our team just launched a new feature that will
+            revolutionize the way users interact with our platform! 🚀 Big
+            thanks to everyone who contributed to making this happen.
+            #ProductDevelopment #Innovation
+          </div>
+          <div class="post-image3"></div>
+          <div class="post-stats">
+            <span>👍 ❤️ <span class="like-count">245</span></span>
+            <span
+              ><span class="comment-count">18</span> comments • 32 shares</span
+            >
+          </div>
+          <div class="post-interactions">
+            <div class="interaction-btn">
+              👍 <span class="like-text">Like</span>
+            </div>
+            <div class="interaction-btn">💬 Comment</div>
+            <div class="interaction-btn">🔄 Repost</div>
+            <div class="interaction-btn">📤 Send</div>
+          </div>
+        </div>
+      </main>
+
+      <aside class="right-sidebar">
+        <div class="card news-card">
+          <div class="news-title">LinkedIn News</div>
+          <div class="news-item">
+            <h4>Tech industry hiring trends</h4>
+            <p>2d ago • 12,453 readers</p>
+          </div>
+          <div class="news-item">
+            <h4>Remote work statistics 2024</h4>
+            <p>4d ago • 8,234 readers</p>
+          </div>
+          <div class="news-item">
+            <h4>AI in the workplace</h4>
+            <p>5d ago • 15,672 readers</p>
+          </div>
+          <div class="news-item">
+            <h4>Startup funding insights</h4>
+            <p>1w ago • 6,891 readers</p>
+          </div>
+        </div>
+
+        <div class="card ad-card">
+          <h3>Upgrade your profile</h3>
+          <p>Stand out to recruiters and potential clients with Premium</p>
+          <button class="ad-btn">Try Premium</button>
+        </div>
+      </aside>
+    </div>
+
+    <div class="modal" id="postModal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Create a post</h2>
+          <button class="close-btn">×</button>
+        </div>
+        <div class="modal-body">
+          <textarea
+            id="postText"
+            placeholder="What do you want to talk about?"
+          ></textarea>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" id="postBtn">Post</button>
+        </div>
+      </div>
+    </div>
+
+    <footer class="linkedin-footer">
+  <div class="footer-top">
+    <div class="footer-logo">in</div>
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>General</h4>
+        <a href="#">About</a>
+        <a href="#">Careers</a>
+        <a href="#">Privacy & Terms</a>
+        <a href="#">Advertising</a>
+        <a href="#">Business Services</a>
+      </div>
+      <div class="footer-column">
+        <h4>Explore</h4>
+        <a href="#">Learning</a>
+        <a href="#">Jobs</a>
+        <a href="#">Mobile</a>
+        <a href="#">Services</a>
+        <a href="#">Groups</a>
+      </div>
+      <div class="footer-column">
+        <h4>Directories</h4>
+        <a href="#">Members</a>
+        <a href="#">Companies</a>
+        <a href="#">Content Topics</a>
+        <a href="#">Schools</a>
+        <a href="#">Events</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 LinkedIn Clone</p>
+    <div class="footer-bottom-links">
+      <a href="#">Accessibility</a>
+      <a href="#">User Agreement</a>
+      <a href="#">Cookie Policy</a>
+      <a href="#">Copyright Policy</a>
+    </div>
+  </div>
+</footer>
+
+  </body>
+</html>
